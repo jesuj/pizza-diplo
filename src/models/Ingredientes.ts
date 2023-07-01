@@ -1,0 +1,8 @@
+export type Size = 'small' | 'medium' | 'large'
+export type Meat = 'res' | 'cerdo' | 'jamon'
+export type Cheese = 'mozzarella' | 'grand-cheese' | 'normal'
+export type Lunchmeat = 'pepperoni'
+export type Vegetable = 'pimeton' | 'cebolla' | 'champiñon' | 'aceituna-negra' | 'tomate'
+export type Dough = 'normal'
+export type Salsa = 'salsa-tomate'
+export type Topping = Cheese | Meat | Lunchmeat | Vegetable | 'borde' | 'oregano'
